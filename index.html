@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PortfolioWeb</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Portfolio de Cristian Tulian</h1>
+      <nav>
+        <ul>
+          <li><a href="#acerca-de-mi">Acerca de mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="acerca-de-mi">
+        <h2>Acerca de mí</h2>
+        <p>Tengo 28 años, trabajo en la Facultad de Derecho, soy no docente, me encargo de brindar soporte a los docentes.</p>
+        <p>Estoy constantemente capacitandome, me gustaria conseguir mi primer trabajo como desarrollador web</p>
+        <p>Me capacite en varios cursos de programación Web.</p>
+      </section>
+      <section id="proyectos">
+        <h2>Proyectos</h2>
+        <ul>
+          <li>
+            <p>Pueden ver mis proyectos en mi perfil de <a href="https://github.com/cristulian">GitHub</a></p>
+            <a href="https://github.com/cristulian">Ver proyectos</a>
+          </li>
+        </ul>
+      </section>
+      <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>[Otras habilidades que tengas]</li>
+        </ul>
+      </section>
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="submit-form.php" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" name="correo" required>
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Derechos reservados &copy; 2023</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
